@@ -82,8 +82,6 @@ function init() {
 
     if (detectFlag === 0){
         alert('Congratulations!')
-    }else{
-      alert('Warning wrong keys')
     }
 
 

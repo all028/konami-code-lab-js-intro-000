@@ -75,6 +75,6 @@ function init() {
 }
 
 
-});
+);
 
 }

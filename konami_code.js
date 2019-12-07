@@ -12,7 +12,9 @@ const codes = [
 ];
 
 function init() {
-  var action = document.body.addeventlistener('keydown', function(event) {
+  var action = document.body
+
+   action.addeventlistener('keydown', function(event) {
 
     const key = event.key;
     var detectFlag = 0

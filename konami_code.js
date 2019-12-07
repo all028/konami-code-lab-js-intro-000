@@ -22,9 +22,9 @@ function init() {
 
       if (key === codes[index]) {
         index++;
-
+        alert("congratulations!");
         if (index === codes.length) {
-         alert("congratulations!");
+         
 
           index = 0;
         }

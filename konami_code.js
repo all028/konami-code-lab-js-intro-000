@@ -23,7 +23,7 @@ function init() {
 alert('congrats');
         if (key === codes.length) {
           index = 0;
-           
+
         }
       } else {
         index = 0;

@@ -18,6 +18,9 @@ function init() {
     var detectFlag = 0
     var index = 0
 
+
+
+
     if (key === codes[index]) {
        index++
        if (key === codes[index]){
@@ -65,16 +68,16 @@ function init() {
       }else{
         detectFlag = 2
       }//2nd
-    else{
+    }else{
       detectFlag = 1
     } //1st if
 
+    
+    if (detectFlag === 0){
+        alert('Congratulations!')
+    }
 
-  if (detectFlag === 0){
-    alert('Congratulations!')
-}
 
-
-);
+});
 
 }

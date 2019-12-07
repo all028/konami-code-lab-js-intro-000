@@ -32,16 +32,26 @@ function init() {
                    if (key === codes[index]){
                       index++
                       if (key === codes[index]){
-
+                         index++
+                         if (key === codes[index]){
+                            index++
+                            if (key === codes[index]){
+                               
+                            }else{
+                              detect = 10
+                            }//10th 
+                         }else{
+                           detect = 9
+                         }//9th
                       }else{
                         detect =8
-                      }
+                      }//8th
                    }else{
                      detect = 7
-                   }
+                   }//7th lvl
                 }else{
                   detectFlag =6
-                }
+                }//6th
               }else{
                 detectFlag =5
               }//5th level

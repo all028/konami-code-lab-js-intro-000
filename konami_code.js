@@ -18,8 +18,6 @@ function init() {
 
     var index = 0
 
-
-
       if (key === codes[index]) {
         index++;
 
@@ -31,9 +29,6 @@ function init() {
         index = 0;
 
       }
-
-
-
 });
 
   alert('congrats')

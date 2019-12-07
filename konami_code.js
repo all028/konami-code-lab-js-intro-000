@@ -83,7 +83,7 @@ function init() {
     } //1st if
 
         if (detectFlag === 0){
-            
+
         }
     */
 

@@ -15,14 +15,14 @@ function init() {
   document.body.addEventListener('keydown', function(event) {
 
     const key = event.key;
-  let index = 0
+
 
 
       if (key === codes[index]) {
         index++;
 
         if (index === codes.length) {
-        //  alert('congratulatory')
+          alert('congratulatory')
           index = 0;
 
         }

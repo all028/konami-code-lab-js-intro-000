@@ -81,13 +81,13 @@ function init() {
       alert('no')
       detectFlag = 1
     } //1st if
-    
+
         if (detectFlag === 0){
             alert('Congratulations!')
         }
     */
 
-    
+
       if (key === codes[index]) {
         index++;
 
@@ -99,7 +99,7 @@ function init() {
       } else {
         index = 0;
       }
-    
+
 
 
 

@@ -92,7 +92,7 @@ function init() {
         index++;
 
         if (index === codes.length) {
-          
+
 
           index = 0;
         }

@@ -16,7 +16,7 @@ function init() {
 
     const key = event.key;
 
-  
+
 
       if (key === codes[index]) {
         index++;

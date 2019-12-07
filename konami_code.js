@@ -22,8 +22,10 @@ function init() {
         index++;
 
         if (key === codes.length) {
-          index = 1;
-alert('congrats');
+          index = 0;
+
+        }else{
+          alert('congrats');
         }
       } else {
         index = 0;

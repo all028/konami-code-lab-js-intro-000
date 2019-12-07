@@ -20,7 +20,7 @@ function init() {
 
       if (key === codes[index]) {
         index++;
-alert('congrats');
+
         if (key === codes.length) {
           index = 0;
 
@@ -29,6 +29,8 @@ alert('congrats');
         index = 0;
 
       }
+
+      alert('congrats');
 });
 
 }

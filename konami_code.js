@@ -18,7 +18,7 @@ function init() {
 
     var index = 0
 
-    
+
 
       if (key === codes[index]) {
         index++;

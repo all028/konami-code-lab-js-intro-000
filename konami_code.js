@@ -12,5 +12,21 @@ const codes = [
 ];
 
 function init() {
-  // your code here
+  var action = document.body.addeventlistener('keydown', function(event) {
+
+    const key = event.key;
+    var detectFlag = 0
+
+    if (key === "ArrowUp") {
+      detectFlag = 1
+    else {
+      if (key === "ArrowUp") {
+          detectFlag = 1
+      }
+    }
+
+
+
+});
+
 }

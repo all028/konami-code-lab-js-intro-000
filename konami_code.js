@@ -92,11 +92,12 @@ function init() {
         index++;
 
         if (index === codes.length) {
-          alert("congratulations!");
-          detectFlag = 0
+          
+
           index = 0;
         }
       } else {
+        alert("congratulations!");
         index = 0;
       }
 

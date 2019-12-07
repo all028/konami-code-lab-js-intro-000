@@ -19,11 +19,10 @@ function init() {
     var index = 0
 
 
-
+/*
     if (key === codes[index]) {
        index++
-       alert('lvl 1')
-       alert('lvl 2')
+
        if (key === codes[index]){
          index++
          if (key === codes[index]){
@@ -82,11 +81,27 @@ function init() {
       alert('no')
       detectFlag = 1
     } //1st if
+    
+        if (detectFlag === 0){
+            alert('Congratulations!')
+        }
+    */
+
+    
+      if (key === codes[index]) {
+        index++;
+
+        if (index === codes.length) {
+          alert("congratulations!");
+
+          index = 0;
+        }
+      } else {
+        index = 0;
+      }
+    
 
 
-    if (detectFlag === 0){
-        alert('Congratulations!')
-    }
 
 
 });

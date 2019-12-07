@@ -16,6 +16,7 @@ function init() {
 
     const key = event.key;
     var detectFlag = 0
+    var index = 0
 
     if (key === codes[index]) {
        index++
@@ -69,6 +70,8 @@ function init() {
     } //1st if
 
 
+  if (detectFlag > 0)
+    alert('')
 
 
 

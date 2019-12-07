@@ -24,11 +24,11 @@ function init() {
         index++;
 
         if (index === codes.length) {
-          index = 0;
+          index = 1;
 
         }
       } else {
-        index = 1;
+        index = 0;
 
       }
 

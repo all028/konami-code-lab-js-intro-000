@@ -23,7 +23,7 @@ function init() {
 
         if (key === codes.length) {
           index = 0;
-        
+
         }
       } else {
         index = 0;

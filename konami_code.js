@@ -21,11 +21,10 @@ function init() {
       if (key === codes[index]) {
         index++;
 
-        if (key === codes.length) {
+        if (index === codes.length) {
+          alert('congratulatory')
           index = 0;
 
-        }else{
-          alert('congrats');
         }
       } else {
         index = 0;

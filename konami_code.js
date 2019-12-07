@@ -16,7 +16,7 @@ function init() {
 
     const key = event.key;
 
-    var index = 0
+    //var index = 0
 
 
 
@@ -28,7 +28,6 @@ function init() {
         }
       } else {
         index = 0;
-
       }
 
 

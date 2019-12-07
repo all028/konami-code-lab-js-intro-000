@@ -39,33 +39,43 @@ function init() {
                             if (key === codes[index]){
                                       // do nothing
                             }else{
+                              alert('no')
                               detect = 10
                             }//10th
                          }else{
+                           alert('no')
                            detect = 9
                          }//9th
                       }else{
+                        alert('no')
                         detect =8
                       }//8th
                    }else{
+                     alert('no')
                      detect = 7
                    }//7th lvl
                 }else{
+                  alert('no')
                   detectFlag =6
                 }//6th
               }else{
+                alert('no')
                 detectFlag =5
               }//5th level
           }else{
+            alert('no')
             detectFlag =4
           }//4th level
         }else{
+          alert('no')
           detectFlag = 3
         }//3rd
       }else{
+        alert('no')
         detectFlag = 2
       }//2nd
     }else{
+      alert('no')
       detectFlag = 1
     } //1st if
 

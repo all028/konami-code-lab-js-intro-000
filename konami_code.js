@@ -22,6 +22,7 @@ function init() {
 
     if (key === codes[index]) {
        index++
+       alert('lvl 1')
        if (key === codes[index]){
          index++
          if (key === codes[index]){

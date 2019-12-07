@@ -21,9 +21,9 @@ function init() {
       if (key === codes[index]) {
         index++;
 
-        if (index === codes.length) {
+        if (key === codes.length) {
           index = 0;
-
+          alert('congrats');
         }
       } else {
         index = 0;
@@ -33,4 +33,4 @@ function init() {
 
 }
 
-  alert('congrats');
+//  

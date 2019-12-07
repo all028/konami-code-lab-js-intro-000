@@ -65,9 +65,9 @@ function init() {
       }else{
         detectFlag = 2
       }//2nd
-  //  else{
-    //  detectFlag = 1
-  //  } //1st if
+    else{
+      detectFlag = 1
+    } //1st if
 
 
   if (detectFlag === 0){
@@ -77,4 +77,4 @@ function init() {
 
 );
 
-//}
+}

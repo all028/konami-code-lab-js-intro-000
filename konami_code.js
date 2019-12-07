@@ -23,14 +23,14 @@ function init() {
 
         if (key === codes.length) {
           index = 0;
-
+alert('congrats');
         }
       } else {
         index = 0;
 
       }
 
-      alert('congrats');
+      
 });
 
 }

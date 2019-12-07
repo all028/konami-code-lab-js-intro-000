@@ -25,7 +25,7 @@ function init() {
 
         if (index === codes.length) {
           index = 0;
-          
+
         }
       } else {
         index = 0;

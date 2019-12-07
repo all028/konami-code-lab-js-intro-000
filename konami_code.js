@@ -19,16 +19,31 @@ function init() {
 
     if (key === codes[index]) {
        index++
-      if (key === codes[index]){
+       if (key === codes[index]){
          index++
-        if (key === codes[index]){
+         if (key === codes[index]){
            index++
-          if (key === codes[index]){
+           if (key === codes[index]){
               index++
               if (key === codes[index]){
-
+                index++
+                if (key === codes[index]){
+                   index++
+                   if (key === codes[index]){
+                      index++
+                      if (key === codes[index]){
+                        
+                      }else{
+                        detect =8
+                      }
+                   }else{
+                     detect = 7   
+                   } 
+                }else{
+                  detectFlag =6     
+                }
               }else{
-
+                detectFlag =5
               }//5th level
           }else{
             detectFlag =4

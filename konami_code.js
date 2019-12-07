@@ -32,6 +32,9 @@ function init() {
 
       }
 
+if (index ==1){
+  alert('congrats')
+}
 
 });
 

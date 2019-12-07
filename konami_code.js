@@ -36,7 +36,7 @@ function init() {
                          if (key === codes[index]){
                             index++
                             if (key === codes[index]){
-
+                                      // do nothing
                             }else{
                               detect = 10
                             }//10th

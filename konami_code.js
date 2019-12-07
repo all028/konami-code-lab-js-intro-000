@@ -18,9 +18,6 @@ function init() {
     var detectFlag = 0
     var index = 0
 
-
-
-
     if (key === codes[index]) {
        index++
        if (key === codes[index]){
@@ -75,6 +72,8 @@ function init() {
 
     if (detectFlag === 0){
         alert('Congratulations!')
+    }else{
+      alert('Warning wrong keys')
     }
 
 

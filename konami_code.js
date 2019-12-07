@@ -101,9 +101,6 @@ function init() {
       }
 
 
-alert('Congratulations!')
-
-
 });
 
 }

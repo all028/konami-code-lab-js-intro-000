@@ -18,10 +18,8 @@ function init() {
     var detectFlag = 0
     var index = 0
 
-      if (key === codes[index]) {
-        detectFlag = 1
-      }
-/*
+
+
     if (key === codes[index]) {
        index++
        if (key === codes[index]){
@@ -44,19 +42,19 @@ function init() {
                                       // do nothing
                             }else{
                               alert('no')
-                              detect = 10
+                              detectFlag = 10
                             }//10th
                          }else{
                            alert('no')
-                           detect = 9
+                           detectFlag = 9
                          }//9th
                       }else{
                         alert('no')
-                        detect =8
+                        detectFlag =8
                       }//8th
                    }else{
                      alert('no')
-                     detect = 7
+                     detectFlag = 7
                    }//7th lvl
                 }else{
                   alert('no')
@@ -81,7 +79,7 @@ function init() {
     }else{
       alert('no')
       detectFlag = 1
-    } //1st if*/
+    } //1st if
 
 
     if (detectFlag === 0){

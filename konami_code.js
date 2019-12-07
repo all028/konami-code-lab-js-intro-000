@@ -18,6 +18,10 @@ function init() {
     var detectFlag = 0
     var index = 0
 
+      if (key === codes[index]) {
+        detectFlag = 1
+      }
+/*
     if (key === codes[index]) {
        index++
        if (key === codes[index]){
@@ -77,7 +81,7 @@ function init() {
     }else{
       alert('no')
       detectFlag = 1
-    } //1st if
+    } //1st if*/
 
 
     if (detectFlag === 0){

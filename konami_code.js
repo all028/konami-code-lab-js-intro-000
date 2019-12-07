@@ -18,14 +18,24 @@ function init() {
     var detectFlag = 0
 
     if (key === codes[index]) {
-      index++
-      if(key === codes[index]){
-        index++
+       index++
+      if (key === codes[index]){
+         index++
         if (key === codes[index]){
-
+           index++
+          if (key === codes[index]){
+              index++
+              if (key === codes[index]){
+                
+              }else{
+                
+              }//5th level
+          }else{
+            detectFlag =4  
+          }//4th level
         }else{
-
-        }
+          detectFlag = 3
+        }//3rd
       }else{
         detectFlag = 2
       }//2nd

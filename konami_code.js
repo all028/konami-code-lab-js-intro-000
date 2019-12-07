@@ -15,7 +15,7 @@ function init() {
   var action = document.body.addEventListener('keydown', function(event) {
 
     const key = event.key;
-    var detectFlag = 0
+    
     var index = 0
 
 
@@ -31,7 +31,7 @@ function init() {
 
       }
 
-alert("congratulations!");
+
 });
 
 }

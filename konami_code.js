@@ -72,7 +72,7 @@ function init() {
       detectFlag = 1
     } //1st if
 
-    
+
     if (detectFlag === 0){
         alert('Congratulations!')
     }

@@ -16,7 +16,7 @@ function init() {
 
     const key = event.key;
 
-    //var index = 0
+    var index = 0
 
 
 

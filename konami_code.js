@@ -83,7 +83,7 @@ function init() {
     } //1st if
 
         if (detectFlag === 0){
-            alert('Congratulations!')
+            
         }
     */
 
@@ -93,7 +93,7 @@ function init() {
 
         if (index === codes.length) {
           alert("congratulations!");
-
+          detectFlag = 0
           index = 0;
         }
       } else {
@@ -101,7 +101,7 @@ function init() {
       }
 
 
-
+alert('Congratulations!')
 
 
 });

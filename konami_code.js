@@ -25,13 +25,14 @@ function init() {
 
         if (index === codes.length) {
           index = 0;
+          alert('Congrats')
         }
       } else {
         index = 0;
 
       }
 
-alert('Congrats')
+
 });
 
 }

@@ -28,10 +28,10 @@ function init() {
         }
       } else {
         index = 0;
-        alert('Congrats')
+
       }
 
-
+alert('Congrats')
 });
 
 }

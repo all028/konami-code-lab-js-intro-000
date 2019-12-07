@@ -70,9 +70,9 @@ function init() {
     } //1st if
 
 
-  if (detectFlag === 0)
+  if (detectFlag === 0){
     alert('Congratulations!')
-
+}
 
 
 });
